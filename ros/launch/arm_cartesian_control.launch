@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="mcr_arm_cartesian_control" type="arm_cartesian_control_node" ns="mcr_manipulation" name="mcr_arm_cartesian_control" output="screen" respawn="false">
+      <param name="root_name" value="right_arm_base_link"/>
+      <param name="tip_name" value="right_hand_static_grasp_link"/>
+      <param name="max_arm_cartesian_velocity" type="double" value="0.4"/>
+      <param name="max_arm_joint_velocity" type="double" value=".2"/>
+      <param name="use_float_array_msg" type="bool" value="true"/>
+      <remap from="mcr_manipulation/joint_velocity_command" to="/right_arm/joint_group_velocity_controller/command"/>
+    </node>
+</launch>
