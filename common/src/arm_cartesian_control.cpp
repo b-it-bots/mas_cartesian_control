@@ -5,7 +5,7 @@
  *      Author: matthias
  */
 
-#include <mcr_arm_cartesian_control/arm_cartesian_control.h>
+#include <mas_cartesian_control/arm_cartesian_control.h>
 
 #include <iostream>
 

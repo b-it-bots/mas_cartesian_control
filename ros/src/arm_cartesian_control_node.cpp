@@ -1,4 +1,4 @@
-#include <mcr_arm_cartesian_control/ros_arm_cartesian_control.h>
+#include <mas_cartesian_control/ros_arm_cartesian_control.h>
 
 
 int main(int argc, char **argv)

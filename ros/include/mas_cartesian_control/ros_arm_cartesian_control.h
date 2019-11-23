@@ -43,8 +43,7 @@
 #ifndef ROS_ARM_CARTESIAN_CONTROL_H_
 #define ROS_ARM_CARTESIAN_CONTROL_H_
 
-#include <mcr_arm_cartesian_control/ros_urdf_loader.h>
-#include <mcr_arm_cartesian_control/arm_cartesian_control.h>
+#include <mas_cartesian_control/arm_cartesian_control.h>
 #include <sensor_msgs/JointState.h>
 #include <kdl/kdl.hpp>
 #include <geometry_msgs/TwistStamped.h>
@@ -58,6 +57,7 @@
 #include <std_msgs/Float32MultiArray.h>
 #include <std_msgs/Int32MultiArray.h>
 #include <std_msgs/Float64MultiArray.h>
+#include "ros_urdf_loader.h"
 
 
 class RosArmCartesianControl

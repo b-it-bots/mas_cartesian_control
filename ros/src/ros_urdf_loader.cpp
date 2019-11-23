@@ -5,7 +5,7 @@
  *      Author: matthias
  */
 
-#include "mcr_manipulation_utils/ros_urdf_loader.h"
+#include "mas_cartesian_control/ros_urdf_loader.h"
 
 #include <urdf/model.h>
 #include <kdl_parser/kdl_parser.hpp>
